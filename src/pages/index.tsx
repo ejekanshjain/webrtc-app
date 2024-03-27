@@ -40,11 +40,19 @@ export default function Home({
           onChange={e => setUserName(e.target.value)}
           value={userName}
           placeholder="Enter Username"
+          style={{
+            background: 'black',
+            color: 'white'
+          }}
         />
         <input
           onChange={e => setRoomName(e.target.value)}
           value={roomName}
           placeholder="Enter Room Name"
+          style={{
+            background: 'black',
+            color: 'white'
+          }}
         />
         <button type="submit">Join Room</button>
       </form>
